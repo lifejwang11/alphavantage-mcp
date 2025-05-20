@@ -1,5 +1,7 @@
 # AlphaVantage MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@lifejwang11/alphavantage-mcp)](https://smithery.ai/server/@lifejwang11/alphavantage-mcp)
+
 This is a server based on the MCP (Model Control Protocol) framework, designed to integrate with the AlphaVantage financial data API service.The more information about AlphaVantage is [here](https://www.alphavantage.co/documentation)
 
 ## Project Overview
@@ -15,6 +17,14 @@ AlphaVantage is an API service that provides real-time and historical financial 
 This project encapsulates AlphaVantage's functionality into an MCP service, making it easier to integrate with other applications.
 
 ## MCP Server Installation
+
+### Installing via Smithery
+
+To install AlphaVantage MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@lifejwang11/alphavantage-mcp):
+
+```bash
+npx -y @smithery/cli install @lifejwang11/alphavantage-mcp
+```
 
 ### Prerequisites
 
